@@ -5,6 +5,10 @@ INC=inc unity
 all.exe:$(SRC) main.c
 	gcc -I $(INC) $(SRC) main.c -o all.exe
 	./all.exe
+	
+test:$(SRC) $(TEST) test/test.c 
+	gcc -I $(INC) $(SRC) unity/unity.c test/test.c -o test.exe 
+	./test.exe
 
 run:all.exe
 	all.exe
