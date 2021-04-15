@@ -8,8 +8,6 @@ void tearDown(){}
 void test_and(void);
 void test_or(void);
 void test_not(void);
-void test_nand(void);
-void test_nor(void);
 void test_xor(void);
 
 int main(void)
