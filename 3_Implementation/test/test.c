@@ -30,12 +30,12 @@ void test_or(void){
     TEST_ASSERT_EQUAL(5,OR(1,5));
 }
 void test_not(void){
-    TEST_ASSERT_EQUAL(0,NOT(1));
-    TEST_ASSERT_EQUAL(1,NOT(0));
+    TEST_ASSERT_EQUAL(-2,NOT(1));
+    TEST_ASSERT_EQUAL(-1,NOT(0));
 }
 
-void test_xor(void);
+void test_xor(void)
 {
-    TEST_ASSERT_EQUAL(3,AND(1,2));
-    TEST_ASSERT_EQUAL(0,AND(3,3));
+    TEST_ASSERT_EQUAL(3,XOR(1,2));
+    TEST_ASSERT_EQUAL(0,XOR(3,3));
 }
