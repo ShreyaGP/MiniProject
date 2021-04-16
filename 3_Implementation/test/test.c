@@ -16,8 +16,6 @@ int main(void)
     RUN_TEST(test_and);
     RUN_TEST(test_or);
     RUN_TEST(test_not);
-    RUN_TEST(test_nand);
-    RUN_TEST(test_nor);
     RUN_TEST(test_xor);
     return UNITY_END();
 }
